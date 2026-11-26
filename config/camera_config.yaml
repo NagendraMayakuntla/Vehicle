@@ -1,0 +1,23 @@
+# Multi-Camera Feed Configuration
+# Each camera can be a file path, RTSP URL, or device index (0 = webcam)
+
+cameras:
+  - id: camera_01
+    name: Main Intersection
+    source: "0"  # Default webcam
+    enabled: true
+
+  - id: camera_02
+    name: Highway Entry
+    source: "data/raw/camera_02/highway.mp4"
+    enabled: false
+
+  # Example RTSP stream:
+  # - id: camera_03
+  #   name: City Center
+  #   source: "rtsp://admin:password@192.168.1.100:554/stream1"
+  #   enabled: true
+
+reid:
+  similarity_threshold: 0.7
+  model_path: "models/reid/reid_model.pth"

@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (too large for git)
+data/raw/
+data/external/
+data/processed/frames/
+data/datasets/vehicle_detection/train/
+data/datasets/vehicle_detection/val/
+data/datasets/vehicle_detection/test/
+
+# Model weights
+models/yolov8/*.pt
+models/yolov9/*.pt
+models/yolov10/*.pt
+models/lstm/*.pth
+models/reid/*.pth
+*.onnx
+
+# Outputs
+outputs/
+
+# Environment
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

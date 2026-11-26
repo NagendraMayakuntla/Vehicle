@@ -1,0 +1,28 @@
+{
+  "flagged_vehicles": [
+    {
+      "plate_number": "KA01AB1234",
+      "reason": "stolen",
+      "reported_date": "2025-12-15",
+      "owner_name": "Demo Entry",
+      "vehicle_type": "Car",
+      "priority": "critical"
+    },
+    {
+      "plate_number": "KA03CD5678",
+      "reason": "blacklisted",
+      "reported_date": "2025-11-20",
+      "owner_name": "Demo Entry",
+      "vehicle_type": "Bike",
+      "priority": "high"
+    },
+    {
+      "plate_number": "KA05EF9012",
+      "reason": "expired_registration",
+      "reported_date": "2026-01-10",
+      "owner_name": "Demo Entry",
+      "vehicle_type": "Truck",
+      "priority": "medium"
+    }
+  ]
+}
